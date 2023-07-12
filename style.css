@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("images/vegetables-set-left-black-slate.jpg");
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size:cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.container {
+  background: #fff;
+  width: 320px;
+  margin: 10px 0;
+  padding: 8px 18px;
+  border-radius: 5px;
+
+}
+
+.input-container {
+  display: flex;
+  margin: 10px 0 20px 0;
+}
+
+.input-div {
+  border-bottom: 2px solid #000;
+  margin: 0 10px;
+}
+input {
+  border: none;
+  width: 195px;
+  outline: none;
+}
+
+.input-button > button {
+  width: 60px;
+  height: 28px;
+  background: burlywood;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.recipe-pic {
+  display: flex;
+justify-content: center;
+}
+
+.recipe-pic > img {
+  width: 100px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.recipeNameBg{
+  background: burlywood;
+  color: #fff;
+  border-radius: 3px;
+  width: 268px;
+  padding: 2px;
+ display: none;
+  margin-bottom: 10px;
+}
+
+
+.recipeNameBg> h1{
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+
+}
+
+.recipeNameBg > small{
+  text-align: center;
+  display: block;
+}
+
+.col{
+    display: flex;
+    padding: 0 18px;
+    justify-content: space-between;
+}
+
+
+
+li{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 2px; 
+
+}
+
+
+.recipe-button{
+    display: flex;
+    justify-content: end;
+    margin: 10px 0;
+}
+
+#recipeBtn{
+    background: burlywood;
+    color: #fff;
+    border: none;
+    height: 36px;
+    padding: 6px;
+    width: 90px;
+    border-radius: 5px;
+    display: none;
+}
+
+.error{
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    margin: 10px 0;
+    
+}
+
+.recipeDiv{
+  background: #fff;
+  width: 320px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  display: none;
+  border-radius: 5px;
+
+
+}
+
+#recipeInstruction{
+  padding: 10px;
+  line-height: 23px;
+  font-size: 15px;
+}
+.recipeCancel{
+  display: flex;
+  justify-content: end;
+}
+
+#cancel{
+  background: burlywood;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 20px;
+  margin: 5px  10px 0 0;
+  color: #fff;
+}
